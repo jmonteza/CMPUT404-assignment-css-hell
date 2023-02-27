@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Neucha&family=Shadows+Into+Light&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+/* Start of Middlemarch by George Eliot */
+
+html {
+    font-family: 'Source Serif Pro', serif;
+}
+
+body {
+
+    background-image: url("background.jpg");
+
+    height: 100%;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+/* div.chapter > p::first-letter {
+    initial-letter: 2;
+} */
+
+div.chapter p::first-letter {
+    initial-letter: 2;
+}
+
+
+/* div.chapter > p:first-of-type::first-line {
+    initial-letter: 2;
+} */
+
+/* div.chapter > p:not(.poem)::first-letter {
+    initial-letter: 2;
+} */
+
+div.chapter > h2 {
+    color: #8B0000;
+    font-family: 'Neucha', cursive;
+    font-size: 3em;
+}
+
+div.chapter > h3 {
+    color: #8B0000;
+    font-family: 'Neucha', cursive;
+    font-size: 2em;
+}
+
+img {
+    border: 5px solid #8B0000;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.chapter {
+    display: none;
+}
+
+p {
+    line-height: 1.8;
+     
+}
+
+strong {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600!important;
+}
+
+/* table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+} */
+
+/* End of Middlemarch by George Eliot */
+/* td > a::before {
+    content: "> "
+} */
+h5 > a {
+    font-family: cursive;
+    font-size: 2em;
+}
+
+h5 > a::before {
+    content: "Image Caption: "
+}

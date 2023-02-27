@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Holtwood+One+SC&family=Judson&family=Permanent+Marker&family=Satisfy&family=Source+Code+Pro:wght@200&display=swap');
+
+/* html {
+  box-sizing: border-box;
+} */
+/* *, *:before, *:after {
+  box-sizing: inherit;
+} */
+
+body {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    /* References: https://cssgradient.io/ */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* background-color: #000051; */
+    /* padding: 10px; */
+    /* display: flex; */
+    /* flex-direction: column;  */
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 5px;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > div {
+  /* background-color: #f1f1f1; */
+  /* margin: 10px; */
+  /* padding: 20px; */
+  font-size: 1.25em;
+  flex: 0.75;
+  text-align: center;
+}
+
+.flex-container > div[class="right"] {
+  /* background-color: #f1f1f1; */
+  /* margin: 10px; */
+  /* padding: 20px; */
+  flex: 0.25;
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* align-content: space-around; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* align-items: stretch; */
+    /* background-color: #BF360C; */
+
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(90,88,111,1) 21%, rgba(132,53,180,1) 30%, rgba(201,134,222,1) 39%, rgba(54,5,17,1) 58%, rgba(175,135,130,1) 74%, rgba(150,62,33,1) 91%, rgba(175,120,0,1) 100%);
+
+
+}
+
+.experience-container > div {
+    /* flex: 0.5; */
+    text-align: center;
+    flex: 1;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* padding: 100px; */
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    background-color: #5D4037;
+    /* align-items: stretch; */
+}
+
+.skill-container > div {
+    /* flex: 0.5; */
+    text-align: center;
+    /* flex: 1; */
+}
+
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* padding: 100px; */
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* background-color: #263238; */
+
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(132,53,180,1) 30%, rgba(76,47,54,1) 58%, rgba(184,90,59,1) 72%, rgba(175,120,0,1) 100%); 
+
+    /* align-items: stretch; */
+}
+
+.services-container > div {
+    /* flex: 0.5; */
+    text-align: center;
+    /* flex: 1; */
+}
+
+
+
+.header {
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive;
+    color: #1B5E20;
+    text-shadow: 10px 10px white;
+}
+
+.experience-header {
+    font-size: 4em;
+    font-family: 'Holtwood One SC', serif;
+    color: #0097A7;
+}
+
+.skill-header {
+    font-size: 4em;
+    font-family: 'Source Code Pro', monospace;
+    color: #E64A19;
+}
+
+.services-header {
+    font-size: 4em;
+    font-family: 'Arvo', serif;
+    color: white;
+}
+
+/* Card */
+/* Reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: fit-content;
+  padding: 50px;
+  background-color: #A5D6A7;
+   /* color: #000051; */
+   /* border-color: #000051; */
+   /* border-style: solid; */
+   /* border-width: 1px; */
+   border-radius: 50%;
+  /* height: 100%; */
+  min-height: 600px;
+  /* min-height: auto; */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.skill-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  padding: 50px;
+   background-color: #E64A19;
+   color: #F8BBD0;
+   /* border-color: #000051; */
+   /* border-style: solid; */
+   /* border-width: 1px; */
+   border-radius: 0px;
+  /* height: 100%; */
+  min-height: 200px;
+  /* min-height: auto; */
+}
+
+.skill-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.services-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 1000px;
+  padding: 50px;
+   background-color: #212121;
+   color: #C5E1A5;
+   /* border-color: #000051; */
+   /* border-style: solid; */
+   /* border-width: 1px; */
+   border-radius: 25px;
+  /* height: 100%; */
+  min-height: 200px;
+  /* min-height: auto; */
+}
+
+.services-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.container {
+  padding: 2px 16px;
+  /* width: fit-content; */
+}
+
+.header-container > div {
+  /* background-color: #f1f1f1; */
+  /* margin: 10px; */
+  /* padding: 20px; */
+  font-size: 1.25em;
+  /* flex: 0.75; */
+  text-align: center;
+}
+
+
+ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.page {
+    display: flex; 
+    column-gap: 10px;
+    /* flex-wrap: wrap; */
+    /* grid-template-columns: 50% 50%; */
+    /* grid-template-rows: 100%; */
+}
+
+.sidebar {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    width: 1500px;
+    text-align: center;
+    background: #FFEB3B;
+    border-radius: 50px;
+    color: #F48FB1;
+}
+
+.sidebar-header{
+    font-size: 2em;
+    color: #F48FB1;
+}
+
+.about-header {
+    /* font-style: 700; */
+    font-weight: 700;
+    font-style: normal;
+    color: #F48FB1;;
+}
+
+img {
+    border-radius: 100%;
+    /* border-style: double; */
+}
+
+img.photo {
+    border-style: double;
+    border-width: 100px;
+    border-color: darksalmon;
+}
+
+
+
+/* .content{
+    flex: 1;
+} */
+
+/* .content { */
+  /* background: blue; */
+  /* flex: 1 0 auto; */
+  /* enable grow, disable shrink */
+/* } */
+
+
+/* Reference: https://www.w3schools.com/css/css3_buttons.asp */
+.button {
+  background-color: #8435b4;
+  border-style: solid;
+  border-width: 10px;
+  border-color: coral;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* border-radius: 12px; */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-1 {
+  background-color:turquoise;
+  border-style: solid;
+  border-width: 10px;
+  border-color: yellow;
+  border-radius: 100%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* border-radius: 12px; */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-2 {
+  background-color: yellow;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 3em;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* border-radius: 12px; */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+a {
+    /* text-decoration: none; */
+     color: #F48FB1;
+}
+
+hr {
+     color: #F48FB1;
+}
+
+.flex-container > div > p {
+    color: white;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #a70016;
+    font-family: 'Judson', serif;
+}
