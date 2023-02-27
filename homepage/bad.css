@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Holtwood+One+SC&family=Judson&family=Permanent+Marker&family=Satisfy&family=Source+Code+Pro:wght@200&display=swap');
 
-/* html {
-  box-sizing: border-box;
-} */
-/* *, *:before, *:after {
-  box-sizing: inherit;
-} */
-
 body {
     font-family: 'Satisfy', cursive;
     font-weight: 400;
